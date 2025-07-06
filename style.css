@@ -197,7 +197,6 @@ header{
 
 .product-container .box{
     position: relative;
-    border: 1px solid black;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -242,4 +241,13 @@ header{
     color: var(--text-color);
     border-radius: 4px;
     text-transform: uppercase;
+}
+
+.product-container .box .content a:hover{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition: 1s color linear;
 }
